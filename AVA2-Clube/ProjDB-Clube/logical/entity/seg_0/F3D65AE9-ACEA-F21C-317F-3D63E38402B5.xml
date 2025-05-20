@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3D65AE9-ACEA-F21C-317F-3D63E38402B5" name="Endereço">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-19 23:50:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Endereço</preferredAbbreviation>
+<shortName>Endereço</shortName>
+<synonym>Endereço</synonym>
+<synonymToDisplay>Endereço</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="053F8143-EFE7-A32C-6A48-A4BAAED4AC4B">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-19 23:52:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="B384F4AD-FEB9-F3ED-2458-A4E33D1EA513">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-19 23:53:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="F093B7B8-AB03-771E-1768-E9675DF9754F">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-19 23:56:14 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="uf" id="453D1A8F-8146-C3A2-8A50-9656CB381B9C">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-19 23:57:04 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complemento" id="E1417C33-644E-5D0B-3FBE-A5B3810C78B3">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-19 23:58:35 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroEndereço" id="F1A65BBC-3F13-75E9-020F-0B22ACA551A2">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-19 23:59:48 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="D042D7D9-81FE-E2A5-C5CB-6BBE12926289">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-20 00:17:01 UTC</createdTime>
+<generatorID>D52738EE-8C24-4409-BF25-F3EB218B1712</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<referedAttribute>FCDECF67-4348-12F9-020C-FBDF3FD74D6B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="4730B038-24D8-EEE8-D680-0789EB12AF8B">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-20 00:17:01 UTC</createdTime>
+<generatorID>D52738EE-8C24-4409-BF25-F3EB218B1712</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<referedAttribute>F556E2D6-AC34-1ABC-1305-BEEE2442EDF1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf1" id="447B1902-F847-1F55-DF06-F0754D99F2E4">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-20 00:17:18 UTC</createdTime>
+<generatorID>94122A62-5CC5-57FE-E2AA-3912A74D8A13</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<referedAttribute>4ECFC4D4-4D96-8292-C835-F057060EF802</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="C0213876-04D6-5C02-6025-11179597FD9C">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-20 00:17:18 UTC</createdTime>
+<generatorID>94122A62-5CC5-57FE-E2AA-3912A74D8A13</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<referedAttribute>7444741F-371A-4CA8-9E92-CFEF3C15B317</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="50A07B0F-31C6-50CC-B6FD-C416DA487439" name="Endereço PK">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-20 00:11:00 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>053F8143-EFE7-A32C-6A48-A4BAAED4AC4B</attributeRef>
+<attributeRef>B384F4AD-FEB9-F3ED-2458-A4E33D1EA513</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
