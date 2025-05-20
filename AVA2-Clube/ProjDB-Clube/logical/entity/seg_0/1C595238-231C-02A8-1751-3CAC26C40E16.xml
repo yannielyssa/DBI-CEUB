@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C595238-231C-02A8-1751-3CAC26C40E16" name="Telefone">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-20 00:06:54 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Telefone</preferredAbbreviation>
+<shortName>Telefone</shortName>
+<synonym>Telefone</synonym>
+<synonymToDisplay>Telefone</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="telefonetitular" id="7495D0C2-3116-C9CA-3F4B-B6DD41EF7574">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-20 00:07:44 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tefefoneDependente" id="AA89654C-44BB-8103-A741-88E49F8B04BA">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-20 00:08:09 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="F28DF68C-3936-9B70-E206-6E682F1D364B">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-20 00:15:53 UTC</createdTime>
+<generatorID>2134B3CC-9A7E-2970-D083-DA300E725169</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<referedAttribute>FCDECF67-4348-12F9-020C-FBDF3FD74D6B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="ADF30199-8039-5CCC-999D-4F22C85943C8">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-20 00:15:53 UTC</createdTime>
+<generatorID>2134B3CC-9A7E-2970-D083-DA300E725169</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<referedAttribute>F556E2D6-AC34-1ABC-1305-BEEE2442EDF1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="0B4552D1-1070-B0AA-4B72-1E1689D87ED0">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-20 00:17:32 UTC</createdTime>
+<generatorID>E3C32640-0EBC-93FB-1648-70CE108C28B5</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<referedAttribute>4ECFC4D4-4D96-8292-C835-F057060EF802</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="30C5615A-AFBA-5257-D529-3710D5108282">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-20 00:17:32 UTC</createdTime>
+<generatorID>E3C32640-0EBC-93FB-1648-70CE108C28B5</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<referedAttribute>7444741F-371A-4CA8-9E92-CFEF3C15B317</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="66AF4AE1-CDA7-E638-E2C3-C4461EE80817" name="Telefone PK">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-05-20 00:16:11 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="44605BA0-706F-24E2-7051-91969066CCC0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>
