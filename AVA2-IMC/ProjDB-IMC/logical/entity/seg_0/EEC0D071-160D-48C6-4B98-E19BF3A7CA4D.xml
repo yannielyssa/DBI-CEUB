@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEC0D071-160D-48C6-4B98-E19BF3A7CA4D" name="Pessoa">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-04-07 23:47:13 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="45FD50C3-FA2C-EE19-A220-97CC2CFB4F02" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>pes</preferredAbbreviation>
+<shortName>Pessoa</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfPessoa" id="0E5D43FD-7144-F3B5-89EB-F89CF048C8E3">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-04-28 22:36:58 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="45FD50C3-FA2C-EE19-A220-97CC2CFB4F02" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomePessoa" id="44059A2A-8BBE-2FB4-7DBD-26ADABCE8685">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-04-07 23:47:32 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="45FD50C3-FA2C-EE19-A220-97CC2CFB4F02" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexoPessoa" id="52A66635-B136-1215-70C5-431F02E5D725">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-04-29 00:28:42 UTC</createdTime>
+<generatorID>B225846F-3809-1B3F-B5C7-54F9CDCCDA22</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="45FD50C3-FA2C-EE19-A220-97CC2CFB4F02" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9E414C20-5BC6-CFCA-8122-320A4D2512F1" name="Pessoa_PK">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-04-28 23:02:24 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="45FD50C3-FA2C-EE19-A220-97CC2CFB4F02" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E5D43FD-7144-F3B5-89EB-F89CF048C8E3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

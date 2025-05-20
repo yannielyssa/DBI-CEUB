@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Calcula" directorySegmentName="seg_0" id="19F5716B-88AF-5A24-1F5D-0A0AC3EFF829">
+<createdBy>yanni.elyssa</createdBy>
+<createdTime>2025-04-28 23:03:03 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="45FD50C3-FA2C-EE19-A220-97CC2CFB4F02" value="true"/>
+</engineerTo>
+<sourcePk>9E414C20-5BC6-CFCA-8122-320A4D2512F1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EEC0D071-160D-48C6-4B98-E19BF3A7CA4D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DDBC73CC-F8D3-E424-6CD3-4C97CF15D160</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="142EFEC3-D6A0-D6B7-D0FE-9E843B5576BB" name="ImcHistorico" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="45FD50C3-FA2C-EE19-A220-97CC2CFB4F02" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="29516B5F-F31C-18AB-3791-CBA94C7ACAC9" name="Pessoa" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="45FD50C3-FA2C-EE19-A220-97CC2CFB4F02" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="A938B5AC-5039-4555-0C81-3DE1F3DA769F" name="logSegurança" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="45FD50C3-FA2C-EE19-A220-97CC2CFB4F02" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="59F1FC30-794B-08C2-7480-C36638C714D5" name="Calcula" containerID="142EFEC3-D6A0-D6B7-D0FE-9E843B5576BB" refContainerID="29516B5F-F31C-18AB-3791-CBA94C7ACAC9" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="45FD50C3-FA2C-EE19-A220-97CC2CFB4F02" propertySourceId="29516B5F-F31C-18AB-3791-CBA94C7ACAC9" propertyTargetId="142EFEC3-D6A0-D6B7-D0FE-9E843B5576BB"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
