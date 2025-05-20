@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E52CA646-9935-FD5C-1CA9-AA6E8FE27F56" name="Pedido">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-06 00:31:49 UTC</createdTime>
+<generatorID>E3189412-AEB5-6A70-B483-80C967E77000</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idpedido" id="E4B349AD-CA34-58A8-1F4B-5D0C28516CD3">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-06 00:31:49 UTC</createdTime>
+<generatorID>886ED2DC-5AFE-0561-78AB-DB0107B4A8E4</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_hora" id="1E6BD05B-FB2E-FC58-7834-9CBD265DDD01">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-06 00:31:49 UTC</createdTime>
+<generatorID>651FE7A7-39AF-01DB-DD66-B7407ED3E7A9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="ADD6F199-087F-FB56-73C9-EDA2B374CFEA">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-06 00:31:49 UTC</createdTime>
+<generatorID>A6E903F4-7FE0-CAF2-B3B6-FAE233234EC8</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_total" id="04E5534A-209D-B9BF-8F1C-F8EDB58B6000">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-06 00:31:49 UTC</createdTime>
+<generatorID>D6F916BF-0F95-B9BD-94EE-D619C351E851</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_vendedor" id="FCC5E7C3-EEB4-F371-BA96-8517722AB1DE">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-06 00:31:49 UTC</createdTime>
+<generatorID>CD9BDBAD-237D-BF64-5733-3BAA40DE4592</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cliente" id="42F40DD3-98F4-D8B9-954A-600EF5D5DD94">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-06 00:31:49 UTC</createdTime>
+<generatorID>DEB6B1D9-CC79-2082-C233-39AACDEECC3C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_vendedor1" id="B024E389-E70A-6C19-29A3-D3987AC8675D">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-06 00:31:49 UTC</createdTime>
+<generatorID>C3023DC1-E8E3-67E5-5BD9-DB5512DE0572</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A26205C5-A81C-043F-2FAF-AE93E1333699" referredColumn="5F16A713-754C-7EC3-04F0-B3C7B8D9A890"/>
+</associations>
+</Column>
+<Column name="id_cliente1" id="4B1B8BB6-DF8E-8208-5C67-7A36F271F2BA">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-06 00:31:49 UTC</createdTime>
+<generatorID>A94C1317-0842-7879-88ED-BCE52CAA80A6</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0865A873-8881-DE4C-4987-01FA02CF58F5" referredColumn="ED082ABC-3C58-2D73-DC7E-2030CBF77CA3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="670CC573-62F0-E742-8752-41E8EED27AF7" name="Pedido_PK">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-06 00:31:49 UTC</createdTime>
+<generatorID>7FE3F71F-1399-D6B6-C498-AEB8D8AFD2C7</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4B349AD-CA34-58A8-1F4B-5D0C28516CD3"/>
+<colUsage columnID="FCC5E7C3-EEB4-F371-BA96-8517722AB1DE"/>
+<colUsage columnID="42F40DD3-98F4-D8B9-954A-600EF5D5DD94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7448E601-34F4-9770-0D0D-E20FB3F05A66" name="faz">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-06 00:31:49 UTC</createdTime>
+<generatorID>3955DA67-186C-2B13-7532-D8EA0299310D</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B024E389-E70A-6C19-29A3-D3987AC8675D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E52AE68-80E1-E6AC-482F-8F3E4652DEA4" name="tem">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-06 00:31:49 UTC</createdTime>
+<generatorID>C4B5CD56-E4E2-17D0-906C-356F0310E4A9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B1B8BB6-DF8E-8208-5C67-7A36F271F2BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

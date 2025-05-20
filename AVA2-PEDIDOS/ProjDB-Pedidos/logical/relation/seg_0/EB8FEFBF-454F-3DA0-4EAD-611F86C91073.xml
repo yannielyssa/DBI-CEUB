@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possui" directorySegmentName="seg_0" id="EB8FEFBF-454F-3DA0-4EAD-611F86C91073">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-06 00:11:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="122A098E-49F9-7E7A-F670-91A7BF3ACCE5" value="true"/>
+</engineerTo>
+<sourcePk>F8712FA9-648D-0DC6-E090-ADE00F1CDEB4</sourcePk>
+<targetPk>DFF02BD6-C82B-B2C7-E75D-F691160874FD</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>95962308-A90E-63DD-FBDE-54BB22221019</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>77D05C58-850E-6893-9553-8BD17A15D630</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA318800-7EA7-1F1B-E0A8-8F7585A5B830" name="Vendedor">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-05 23:21:31 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="122A098E-49F9-7E7A-F670-91A7BF3ACCE5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_vendedor" id="44168013-A76C-A978-C581-9A2D162145E6">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-05 23:28:35 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="122A098E-49F9-7E7A-F670-91A7BF3ACCE5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_completo" id="0245C2EB-0511-5097-7984-5D072F00D0EE">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-05 23:28:46 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="122A098E-49F9-7E7A-F670-91A7BF3ACCE5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="EB25A0F2-FEB5-843E-15A0-CAC24036E47B">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-05 23:29:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="122A098E-49F9-7E7A-F670-91A7BF3ACCE5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AF9FF6E2-F738-1673-6187-FB0BFBAF7096" name="Vendedor PK">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-05 23:28:44 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="122A098E-49F9-7E7A-F670-91A7BF3ACCE5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44168013-A76C-A978-C581-9A2D162145E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
